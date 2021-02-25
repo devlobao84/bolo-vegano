@@ -5,4 +5,4 @@
 ### TEcnologias: 
 
 1. HTML 
-@. CSS
+2. CSS
