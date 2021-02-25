@@ -2,7 +2,11 @@
 
 ## Estudo de desenovlvimento de site
 
-### TEcnologias: 
+### Tecnologias: 
+
+
 
 1. HTML 
 2. CSS
+
+Trabalho em andamento!
