@@ -1,0 +1,218 @@
+/*Reset*/
+
+body, h1, h2, h3, p, ul, p {
+     padding: 0px;
+     margin: 0px;
+     font-family: Arial, Helvetica, Sans-serif;
+}
+
+body {
+     font-family: Georgia, serif;
+     color: #262626;
+}
+
+* {
+     box-sizing: border-box;
+}
+
+/*MENU*/
+
+.menu {
+     background: #d7a54d;
+}
+
+.menu-container {
+     max-width: 1200px;
+     margin: 0 auto;
+}
+
+.menu-container::after,
+.menu-container::before {
+     content: '';
+     display: table;
+     clear: both;
+}
+
+a.menu-logo {
+     display: block;
+     float: left;
+     margin-left: 20px;
+}
+
+.menu-nav {
+     float: right;
+     margin-right: 10px;
+     padding-top: 10px;
+}
+
+.menu-nav li {
+     display: inline-block;
+}
+
+.menu-nav a {
+     display: block;
+     padding: 10px;
+     text-decoration: none;
+     color: #fff;
+     font-size: 1.3em;
+
+}
+
+/*INTRO*/
+
+.intro {
+     background: url('../img/bg-intro02.jpg') no-repeat center center;
+     background-size: cover;
+     padding: 150px 0;
+     text-align: center;
+     color: #fff;
+}
+
+.intro h1 {
+     text-transform: uppercase;
+     font-size: 3em;
+}
+
+.intro h1::after {
+     content: '';
+     display: block;
+     width: 50px;
+     height: 4px;
+     background: #fff;
+     margin: 10px auto;
+}
+
+.intro p {
+     font-style: italic;
+     font-size: 1.125em;
+}
+
+/* CONTACT FORM*/
+
+.form-teste {
+     padding: 50px 0 50px 50px;
+     text-align: center;
+
+
+}
+
+p .label {
+     font-size: 20px;
+     font-weight: bold;
+     padding-left: 10px;
+}
+
+
+.label-email {
+     font-size: 20px;
+     font-weight: bold;
+     margin-left: 0px;
+}
+
+.input-nome {
+     border-top: transparent;
+     border-left: transparent;
+     border-right: transparent;
+     border-bottom-color: #D7A54D;
+     border-bottom-width: initial;
+     padding: 8px 50px 8px 5px;
+     margin-left: 2px;
+}
+
+.input-sobrenome {
+     border-top: transparent;
+     border-left: transparent;
+     border-right: transparent;
+     border-bottom-color: #D7A54D;
+     border-bottom-width: initial;
+     padding: 8px 50px 8px 5px;
+     margin-left: 2px;
+}
+
+.input-email { 
+     border-top: transparent; 
+     border-left: transparent;
+     border-right: transparent;
+     border-bottom-color: #D7A54D;
+     border-bottom-width: initial;     
+     padding: 8px 50px 8px 5px;
+     margin-left: 2px;
+}
+
+div .quest-alt{
+     padding-top: 90px;
+     font-size: 20px;
+     font-weight: bold;
+}
+
+/* NEWS LETTER */
+
+.assine {
+     background: #d7a54d;
+     padding: 30px 0;
+}
+
+.assine-container {
+     max-width: 1200px;
+     margin: 0 auto;
+}
+
+.assine-container::after,
+.assine-container::before {
+     content: '';
+     display: table;
+     clear: both;
+}
+
+.assine-info {
+     width: 460px;
+     margin: 0 10px;
+     float: left;
+}
+
+.assine-info h2 {
+     font-size: 2.25em;
+}
+
+.assine-info p {
+     font-size: 1.5em;
+     font-style: italic;
+}
+
+.assine form {
+     width: 460px;
+     margin: 0 10px;
+     float: left;
+}
+
+.assine form label {
+     display: none;
+}
+
+.input-news {
+     width: 320px;
+     border: 3px solid #262626;
+     background: none;
+     font-size: 1.5em;
+     font-style: italic;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 10px;
+     float: left;
+}
+
+.assine button {
+     background: #262626;
+     border: none;
+     font-family: Arial, Helvetica, sans-serif;
+     text-transform: uppercase;
+     font-size: 1.5em;
+     width: 140px;
+     padding: 13px 0;
+     color: #fff;
+     cursor: pointer;
+}
+
+
+/* border-bottom-color: #8A00D3;
+border-width: initial;*/
+
